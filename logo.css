@@ -1,0 +1,118 @@
+@font-face{
+	font-family: afanan;
+	src: url(afanan.ttf);
+}
+
+
+body{
+	background-color:black;
+	font-family: afanan;
+}
+
+#gologo{
+	margin-left:25vw;
+	width:50vw;
+	height:25vw;
+	position:relative;
+}
+
+h1{
+	color:white;
+	margin:auto;
+}
+
+#nav1{
+	margin-left:32vw;
+	float:left;
+	color:white;
+	font-size:2vw;
+}
+
+#nav2{	
+	margin-left:5vw;
+	float:left;
+	color:white;
+	font-size:2vw;
+}
+
+#nav3{
+	margin-left:5vw;
+	float:left;
+	color:white;
+	font-size:2vw;
+}
+
+#twitter{
+	width:2.5vw;
+	height:2vw;
+	margin-top:1.8vw;
+	margin-left:5vw;
+	float:left;
+}
+
+#pone{
+	margin-left:27vw;
+	float:left;
+	color:white;
+	font-size:2vw;
+}
+
+#divone{
+	margin-top:20vw;
+	margin-left:35vw;
+	width:30vw;
+	height:40vw;
+	background-color:white;
+	border-radius:5%;
+	position:absolute;
+}
+
+#pack{
+	margin-left:8.5vw;
+	font-size:3vw;
+}
+
+#psell{
+	font-size:2vw;
+	margin-left:1vw;
+}
+
+ul{
+	font-size:1.5vw;
+}
+
+a{
+	font-size:2vw;
+	text-decoration:none;
+	margin-left:1vw;
+}
+
+#request{
+	font-size:2vw;
+	margin-left:1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
