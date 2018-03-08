@@ -60,12 +60,6 @@ h1{
 	-webkit-animation:spin1 1s linear ;
 }
 
-
-
-#twitter:hover{
-	-webkit-animation:spin1 1s linear ;
-}
-
 #pone{
 	margin-left:1vw;
 	float:left;
@@ -125,7 +119,6 @@ a{
 }
 
 #ptwo{
-	margin-top:-1vw;
 	margin-left:1vw;
 	float:left;
 	color:white;
