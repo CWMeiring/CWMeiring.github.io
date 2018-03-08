@@ -61,19 +61,6 @@ h1{
 	-webkit-animation:spin1 1s linear ;
 }
 
-#twitter{
-	width:3vw;
-	height:2vw;
-	margin-top:1.8vw;
-	margin-left:5vw;
-	float:left;
-	cursor: pointer;
-}
-
-#twitter:hover{
-	-webkit-animation:spin1 1s linear ;
-}
-
 #pone{
 	margin-left:1vw;
 	float:left;
