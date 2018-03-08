@@ -13,7 +13,6 @@ body{
 }
 
 #gologo{
-	margin-top:10vw;
 	width:98vw;
 	height:50vw;
 	position:relative;
@@ -61,14 +60,7 @@ h1{
 	-webkit-animation:spin1 1s linear ;
 }
 
-#twitter{
-	width:6vw;
-	height:4vw;
-	margin-top:5.5vw;
-	margin-left:12.5vw;
-	float:left;
-	cursor: pointer;
-}
+
 
 #twitter:hover{
 	-webkit-animation:spin1 1s linear ;
