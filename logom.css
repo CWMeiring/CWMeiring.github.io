@@ -13,6 +13,7 @@ body{
 }
 
 #gologo{
+	margin-top:10vw;
 	width:98vw;
 	height:50vw;
 	position:relative;
@@ -81,7 +82,7 @@ h1{
 }
 
 #divone{
-	margin-top:10vw;
+	margin-top:20vw;
 	margin-left:20vw;
 	width:60vw;
 	height:80vw;
