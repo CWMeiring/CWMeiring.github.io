@@ -32,7 +32,7 @@ h1{
 	cursor: pointer;
 }
 
-#nav1:hover{
+#nav1:hover{ 
 	-webkit-animation:spin1 1s linear ;
 }
 
