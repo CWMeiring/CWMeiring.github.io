@@ -1,0 +1,232 @@
+@font-face{
+	font-family: afanan;
+	src: url(afanan.ttf);
+}
+
+@-webkit-keyframes spin1{
+	100%{-webkit-transform: rotate(360deg);}
+}
+
+body{
+	background-color:black;
+	font-family: afanan;
+}
+
+#gologo{
+	width:98vw;
+	height:50vw;
+	position:relative;
+}
+
+h1{
+	color:white;
+	margin:auto;
+}
+
+#nav1{
+	margin-top:-1vw;
+	margin-left:3vw;
+	float:left;
+	color:white;
+	font-size:5vw;
+	cursor: pointer;
+}
+
+#nav1:hover{
+	-webkit-animation:spin1 1s linear ;
+}
+
+
+#nav2{	
+	margin-top:-1vw;
+	margin-left:8vw;
+	float:left;
+	color:white;
+	font-size:5vw;
+	cursor: pointer;
+}
+
+#nav2:hover{
+	-webkit-animation:spin1 1s linear ;
+}
+
+#nav3{
+	margin-top:-1vw;
+	margin-left:8vw;
+	float:left;
+	color:white;
+	font-size:5vw;
+	cursor: pointer;
+}
+
+#nav3:hover{
+	-webkit-animation:spin1 1s linear ;
+}
+
+#nav4{
+	margin-top:-1vw;
+	margin-left:8vw;
+	float:left;
+	color:white;
+	font-size:5vw;
+	cursor: pointer;
+}
+
+#nav4:hover{
+	-webkit-animation:spin1 1s linear ;
+}
+
+#twitter{
+	
+	width:6vw;
+	height:4vw;
+	margin-top:25vw;
+	margin-right:7.5vw;
+	float:right;
+	cursor: pointer;
+}
+
+#twitter:hover{
+	-webkit-animation:spin1 1s linear ;
+}
+
+#facebook{
+	
+	width:4vw;
+	height:6vw;
+	margin-top:37vw;
+	margin-right:-5vw;
+	float:right;
+	cursor: pointer;
+
+}
+
+#facebook:hover{
+	-webkit-animation:spin1 1s linear ;
+}
+
+#insta{
+	
+	width:6vw;
+	height:6vw;
+	margin-top:50vw;
+	margin-right:-6.6vw;
+	float:right;
+	cursor: pointer;
+}
+
+#insta:hover{
+	-webkit-animation:spin1 1s linear ;
+}
+
+#pone{
+	margin-left:1vw;
+	float:left;
+	color:white;
+	font-size:3.5vw;
+}
+
+#divone{
+	margin-top:20vw;
+	margin-left:15vw;
+	width:60vw;
+	height:80vw;
+	background-color:white;
+	border-radius:5%;
+	position:absolute;
+}
+
+#pack{
+	margin-left:16vw;
+	font-size:6vw;
+}
+
+#psell{
+	font-size:4vw;
+	margin-left:1vw;
+}
+
+ul{
+	font-size:3vw;
+}
+
+a{
+	font-size:6vw;
+	text-decoration:none;
+	margin-left:1vw;
+}
+
+#request{
+	font-size:4vw;
+	margin-left:1vw;
+}
+
+#pconone{	
+	margin-top:15vw;
+	border:1px solid black;
+	width:98vw;
+	height:30vw;
+	display:block;
+}
+
+#pcontwo{	
+	margin-top:15vw;
+	border:1px solid black;
+	width:98vw;
+	height:30vw;
+	display:none;
+}
+
+#ptwo{
+	margin-left:1vw;
+	float:left;
+	color:white;
+	font-size:3.5vw;
+}
+
+#pconthree{	
+	margin-top:15vw;
+	border:1px solid black;
+	width:98vw;
+	height:30vw;
+	display:none;
+}
+
+#pthree{
+	margin-left:1vw;
+	float:left;
+	color:white;
+	font-size:3.5vw;
+}
+
+#pconfour{	
+	margin-top:15vw;
+	border:1px solid black;
+	width:98vw;
+	height:30vw;
+	display:none;
+}
+
+#pfour{
+	margin-left:20vw;
+	float:left;
+	color:white;
+	font-size:6vw;
+}
+
+#email{
+	margin-top:1vw;
+	margin-left:25vw;
+	position:absolute;
+	font-size:6vw;
+}
+
+
+
+
+
+
+
+
+
+
