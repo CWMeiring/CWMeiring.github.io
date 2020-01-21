@@ -1,0 +1,47 @@
+#pHead{
+	font-size:1500%;
+	text-align: center;
+	margin-top:;
+	font-family: 'Megrim', cursive;
+}
+
+#portrait{
+	Width:50vw;
+	height:50vw;
+	margin: auto;
+	border-radius:100%;
+	display: block;
+	margin-top:;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#about{
+	font-size:400%;
+	text-align: center;
+	background-color:#455ede;
+}
+
+#aboutp{
+	font-size:400%;
+	text-align: center;
+	margin-top:;
+}
+
+#employmentp{
+	font-size:400%;
+	text-align: center;
+	background-color:#455ede;
+}
+
+#SelfEmployed{
+	font-size:400%;
+	text-align: center;
+	background-color:#9c9494;
+}
+
+#ICp{
+	font-size:400%;
+	text-align: center;
+	background-color:#9c9494;
+}
