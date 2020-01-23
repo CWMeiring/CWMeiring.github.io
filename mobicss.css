@@ -2,10 +2,10 @@
 #nav{
 	width:100vw;
 	height:10vw;
-	border:1px solid black;
+	//*border:1px solid black;*//
 	position:fixed;
-	margin-top:-12.5vw;
-	background-color:white;
+	margin-top:0vw;
+	background-color:solid white;
 }
 
 #drop{
@@ -65,31 +65,31 @@
 }
 
 #about{
-	font-size:300%;
+	font-size:200%;
 	text-align: center;
 	background-color:#455ede;
 }
 
 #aboutp{
-	font-size:300%;
+	font-size:200%;
 	text-align: center;
 	margin-top:;
 }
 
 #employmentp{
-	font-size:300%;
+	font-size:200%;
 	text-align: center;
 	background-color:#455ede;
 }
 
 #SelfEmployed{
-	font-size:300%;
+	font-size:200%;
 	text-align: center;
 	background-color:#9c9494;
 }
 
 #ICp{
-	font-size:300%;
+	font-size:200%;
 	text-align: center;
 	background-color:#9c9494;
 }
