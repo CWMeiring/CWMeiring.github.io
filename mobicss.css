@@ -14,7 +14,7 @@
 	height:100vh;
 	background-color:grey;
 	display:none;
-	border:1px solid black;
+	border:1px solid grey;
 	opacity:0.9;
 	z-index:11;
 }
@@ -434,7 +434,7 @@
 }
 
 #dropnav{
-	font-size:400%;
+	font-size:500%;
 	text-align: center;
 	font-family: 'Megrim', cursive;
 }
