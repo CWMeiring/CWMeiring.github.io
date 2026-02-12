@@ -486,7 +486,7 @@ footer {
 
     .main-nav a {
         padding: 0.6rem 1rem;       /* reduced vertical padding */
-        font-size: 0.9rem;          /* smaller text */
+        font-size: 0.7rem;          /* smaller text */
         border-bottom-width: 2px;   /* thinner active border */
     }
 
@@ -548,3 +548,4 @@ footer {
         right: 1.5rem;
     }
 }
+
