@@ -426,44 +426,14 @@ footer {
     transform: translateY(-3px);
 }
 
-@media (max-width: 768px) {
-    .contact-info {
-        flex-direction: column;
-        gap: 1rem;
-    }
-    
-    .main-nav ul {
-        flex-direction: column;
-    }
-    
-    .timeline::before {
-        left: 20px;
-    }
-    
-    .timeline-date {
-        width: 80px;
-    }
-    
-    .timeline-item::before {
-        left: 14px;
-    }
-    
-    .skills-container {
-        grid-template-columns: 1fr;
-    }
-    
-    .projects-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
+/* ===== WhatsApp Button ===== */
 .whatsapp-button {
     position: fixed;
-    bottom: 6rem; /* Position below the back-to-top button */
+    bottom: 6rem;
     right: 2rem;
     width: 50px;
     height: 50px;
-    background: #25D366; /* WhatsApp green color */
+    background: #25D366;
     color: white;
     border: none;
     border-radius: 50%;
@@ -477,7 +447,7 @@ footer {
 }
 
 .whatsapp-button:hover {
-    background: #128C7E; /* Darker WhatsApp green */
+    background: #128C7E;
     transform: translateY(-3px);
 }
 
@@ -485,28 +455,7 @@ footer {
     font-size: 1.5rem;
 }
 
-/* Adjust back-to-top button position to accommodate WhatsApp button */
-.back-to-top {
-    bottom: 2rem;
-    right: 2rem;
-}
-
-/* Ensure buttons don't overlap on mobile */
-@media (max-width: 768px) {
-    .whatsapp-button {
-        bottom: 6rem;
-        right: 1.5rem;
-    }
-    
-    .back-to-top {
-        bottom: 2rem;
-        right: 1.5rem;
-    }
-}
-
-/* Add to style.css, after the .main-nav a styles */
-
-/* Style for download CV link */
+/* ===== Download CV Link ===== */
 .download-cv {
     background: var(--accent-color);
     color: white !important;
@@ -516,17 +465,86 @@ footer {
 }
 
 .download-cv:hover {
-    background: #c0392b; /* Darker shade of accent color */
+    background: #c0392b;
     color: white !important;
     border-bottom: 3px solid transparent !important;
     transform: translateY(-2px);
 }
 
-/* Adjust for mobile */
+/* ===== Mobile Styles (max-width: 768px) ===== */
 @media (max-width: 768px) {
+    .contact-info {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    /* --- Compact navigation for mobile --- */
+    .main-nav ul {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .main-nav a {
+        padding: 0.6rem 1rem;       /* reduced vertical padding */
+        font-size: 0.9rem;          /* smaller text */
+        border-bottom-width: 2px;   /* thinner active border */
+    }
+
+    .main-nav a:hover,
+    .main-nav a.active {
+        border-bottom-width: 2px;   /* keep consistent */
+    }
+
+    /* Download CV button matches the compact style */
     .download-cv {
         margin-left: 0;
-        margin-top: 0.5rem;
-        text-align: center;
+        margin-top: 0.25rem;
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+        border-radius: 0;           /* full-width, no rounding */
+        background: var(--accent-color);
+        color: white !important;
+        border-bottom: 2px solid transparent !important;
+    }
+
+    .download-cv:hover {
+        border-bottom: 2px solid transparent !important;
+    }
+
+    .download-cv i {
+        font-size: 0.85rem;
+        margin-right: 0.3rem;
+    }
+
+    /* Timeline adjustments */
+    .timeline::before {
+        left: 20px;
+    }
+
+    .timeline-date {
+        width: 80px;
+    }
+
+    .timeline-item::before {
+        left: 14px;
+    }
+
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* WhatsApp & back-to-top positions */
+    .whatsapp-button {
+        bottom: 6rem;
+        right: 1.5rem;
+    }
+
+    .back-to-top {
+        bottom: 2rem;
+        right: 1.5rem;
     }
 }
