@@ -71,13 +71,17 @@
         <section id="experience" class="section">
             <h2>Work Experience</h2>
             <div class="timeline">
-                <!-- New: Early Retail Experience (2004–2020) -->
+                <!-- Existing: Hearth & Forge Studios -->
                 <div class="timeline-item">
-                    <div class="timeline-date">Early Experience</div>
+                    <div class="timeline-date">2024 - Present</div>
                     <div class="timeline-content">
-                        <h3>Retail Sales & Customer Service</h3>
-                        <p>Spent over 15 years in fast‑paced retail environments, working with brands such as Pick & Pay, Quicksilver, The Discounter, and Incredible Connection. Built strong foundations in customer service, sales, teamwork, and inventory management, skills that continue to inform my entrepreneurial ventures.</p>
-                    </div>
+                        <h3>Co-founder — Hearth & Forge Studios</h3>
+                        <li>Co-founded a design studio focused on high-quality, fandom-inspired home décor and collectibles, bridging fine craftsmanship with pop culture artistry.</li>
+                        <li>Design and produce original works inspired by franchises such as Star Wars, The Lord of the Rings, and Harry Potter, with an emphasis on detail, material quality, and thematic authenticity.</li>
+                        <li>Direct product photography, styling, and online marketing to create a cohesive visual brand identity.</li>
+						<li>Manage product launches, client communications, and custom commissions, ensuring each piece aligns with both fan culture and elegant home aesthetics.</li>
+						<li>Work collaboratively on new product lines that merge traditional craft with modern fabrication methods, including 3D modeling and printing.</li>
+					</div>
                 </div>
                 <!-- Existing: Bangarang Crafts -->
                 <div class="timeline-item">
@@ -91,17 +95,13 @@
 						<li>Develop and maintain an online store with consistent product updates, marketing campaigns, and content creation for social media platforms.</li>
 					</div>
                 </div>
-                <!-- Existing: Hearth & Forge Studios -->
+				<!-- New: Early Retail Experience (2004–2020) -->
                 <div class="timeline-item">
-                    <div class="timeline-date">2024 - Present</div>
+                    <div class="timeline-date">Early Experience</div>
                     <div class="timeline-content">
-                        <h3>Co-founder — Hearth & Forge Studios</h3>
-                        <li>Co-founded a design studio focused on high-quality, fandom-inspired home décor and collectibles, bridging fine craftsmanship with pop culture artistry.</li>
-                        <li>Design and produce original works inspired by franchises such as Star Wars, The Lord of the Rings, and Harry Potter, with an emphasis on detail, material quality, and thematic authenticity.</li>
-                        <li>Direct product photography, styling, and online marketing to create a cohesive visual brand identity.</li>
-						<li>Manage product launches, client communications, and custom commissions, ensuring each piece aligns with both fan culture and elegant home aesthetics.</li>
-						<li>Work collaboratively on new product lines that merge traditional craft with modern fabrication methods, including 3D modeling and printing.</li>
-					</div>
+                        <h3>Retail Sales & Customer Service</h3>
+                        <p>Spent over 15 years in fast‑paced retail environments, working with brands such as Pick & Pay, Quicksilver, The Discounter, and Incredible Connection. Built strong foundations in customer service, sales, teamwork, and inventory management, skills that continue to inform my entrepreneurial ventures.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -344,28 +344,35 @@
         </section>
 
         <section id="contact" class="section">
-				<h2>Contact Me</h2>
-				<form action="mailto:meiring.cw@gmail.com" method="GET" class="contact-form" id="contact-form">
-					<input type="hidden" name="subject" value="Contact from CV Website">
-					<div class="form-group">
-						<label for="name">Name</label>
-						<input type="text" id="name" name="name" required>
-					</div>
-					<div class="form-group">
-						<label for="email">Email</label>
-						<input type="email" id="email" name="email" required>
-					</div>
-					<div class="form-group">
-						<label for="message">Message</label>
-						<textarea id="message" name="body" rows="5" required></textarea>
-					</div>
-					<button type="submit" class="btn">Send Message</button>
-				</form>
-				<div id="form-message" class="form-message"></div>
-				<p style="margin-top: 1rem; color: var(--text-light); font-size: 0.9rem;">
-					Or email me directly at: <a href="mailto:meiring.cw@gmail.com">meiring.cw@gmail.com</a>
-				</p>
-			</section>
+			<h2>Contact Me</h2>
+    
+			<!-- NEW FORM – uses Formspree -->
+			<form id="contact-form" class="contact-form" action="https://formspree.io/f/mnjbpqzd" method="POST">
+				<!-- Honeypot to block bots (optional but recommended) -->
+				<input type="text" name="_gotcha" style="display:none">
+        
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input type="text" id="name" name="name" required>
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" required>
+				</div>
+				<div class="form-group">
+					<label for="message">Message</label>
+					<textarea id="message" name="message" rows="5" required></textarea>
+				</div>
+				<button type="submit" class="btn">Send Message</button>
+			</form>
+    
+			<!-- Status message (hidden by default) -->
+			<div id="form-message" class="form-message"></div>
+    
+			<p style="margin-top: 1rem; color: var(--text-light); font-size: 0.9rem;">
+				Or email me directly at: <a href="mailto:meiring.cw@gmail.com">meiring.cw@gmail.com</a>
+			</p>
+		</section>
     </main>
 	
 
@@ -388,4 +395,3 @@
 	
 </body>
 </html>
-
